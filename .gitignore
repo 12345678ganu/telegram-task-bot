@@ -1,0 +1,9 @@
+# Ignore local database so it doesn't leak or override online data
+routine.db
+
+# Ignore Python cached files
+__pycache__/
+*.pyc
+
+# Ignore environment/secret files if any
+.env
